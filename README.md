@@ -1,17 +1,17 @@
 # verbose-fortnight
 
-Task Overview:
+## Task Overview:
 1. Task 1: Coding Challenge
 2. Task 2: Managing Plan
 3. Panel Presentation (about 40-60 mins)
 
-Task 1: Coding Challenge
+### Task 1: Coding Challenge
 Write a program that downloads the images from I Can Has Cheezburger? and stores them locally. Only download graphics
 that are memes on the page and not sponsored content.
 Enable the above program to run on multiple threads. With an additional Parameter sent as `threads` that is a number
 between 1 and 5, parallelize the process while continuing to support the `amount` flag.
 
-The Task:
+#### The Task:
 Your program should support several parameters. amount determines how many images should be downloaded.
 Additionally, enable the above program to run on multiple threads. With an additional parameter sent as threads that is a
 number between 1 and 5, parallelize the process while continuing to support the amount flag.
@@ -25,11 +25,11 @@ Final Deliverables:
 • Present this work via sharing your screen in the panel interview.
 • Plan to take between 10 - 20 minutes for this section of your presentation, with a few minutes for Q&A
 
-Task 2: Managing Plan
+## Task 2: Managing Plan
 Background:
 In this scenario, it’s about presenting your skills regarding management.
 
-The Task
+### The Task
 In a format of your choice (such as slides or a document) please explain a strategy for organizing a team of 10 developers
 around several projects.
 
@@ -42,3 +42,5 @@ Final Deliverables:
 • Upload your results to a Github repository and share with roboshoes - Overview
 • Plan to take between 10 - 20 minutes for this section of your presentation, with a few minutes for Q&A
 
+### Task 2 solution
+Please join this [mural](https://app.mural.co/invitation/mural/test06799/1683205155343?sender=ud92ca70ba46cc36bb1a08672&key=8fcfe6bb-46c6-468b-bdaf-73f09b835dc9)
