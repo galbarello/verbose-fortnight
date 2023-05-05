@@ -4,23 +4,19 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        System.IO.Directory.CreateDirectory(Path.Combine(Environment.CurrentDirectory+"/downloads/")) ;
-        int amount = 10;
+        Setup.Initialize();
+        Guard.Against.NoItems(args);
+        
+        int amount = int.Parse(args[0]);
         int threads = 1;
-        //if (args.Length < 1)
-        //{
-         //   Console.WriteLine("Usage: dotnet run <amount> [<threads>]");
-           // return;
-        //}
+
+
+        //thead declared, if not 1 by default
         
         if (args.Length > 1)
         {
-            threads = int.Parse(args[1]);
-            if (threads < 1 || threads > 5)
-            {
-                Console.WriteLine("The number of threads must be between 1 and 5");
-                return;
-            }
+             threads = int.Parse(args[1]);
+            Guard.Against.MaxThreads(threads);
         }
 
         var httpClient = new HttpClient();
