@@ -1,6 +1,6 @@
 public class Guard : IGuardClause
     {
-        private static IGuardClause _against;
+        private static IGuardClause? _against;
         public static IGuardClause Against
         {
             get
